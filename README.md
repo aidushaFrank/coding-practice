@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 14. Longest Common Prefix (LeetCode)
 # Difficulty: Easy
 # Learned: min(..., key=len), enumerate(), nested loops, early return
@@ -14,3 +15,6 @@ class Solution(object):
             common += letter
 
         return common
+=======
+# coding-practice
+>>>>>>> 1ea269189dd349054a0eca52644b73e8bf7c4521
