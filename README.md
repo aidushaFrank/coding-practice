@@ -1,20 +1,9 @@
-<<<<<<< HEAD
-# 14. Longest Common Prefix (LeetCode)
-# Difficulty: Easy
-# Learned: min(..., key=len), enumerate(), nested loops, early return
+# Coding Practice
 
-class Solution(object):
-    def longestCommonPrefix(self, strs):
-        shortest = min(strs, key=len)
-        common = ""
+My coding interview practice repository.
 
-        for i, letter in enumerate(shortest):
-            for word in strs:
-                if word[i] != shortest[i]:
-                    return common
-            common += letter
-
-        return common
-=======
-# coding-practice
->>>>>>> 1ea269189dd349054a0eca52644b73e8bf7c4521
+## Goals
+- Practice Python
+- Prepare for software engineering interviews
+- Understand algorithms instead of memorizing solutions
+- Track my progress consistently
